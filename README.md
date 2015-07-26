@@ -61,14 +61,17 @@ combinedData <- combinedData[,!duplicateColumnName]
 
 #Extract columns with mean or std in their name
 meanStdCheck <- grep("mean|std",colnames(combinedData))
-meanStdData <- combinedData[,meanStdCheck]
+meanStdData <- cbind(combinedData[,(1:2)],combinedData[,meanStdCheck])
+combinedData <- meanStdData
 ```
 
-Once that is done, the column names with 'mean' or 'std' in them are extracted and stored in meanStdData
+Once that is done, the column names with 'mean' or 'std' in them are extracted along with subject id and activity id and stored in combinedData
 
 This completes Step 2.
 
 > ### Activity codes in the data set are replaced with descriptive names
+
+Activity ids in the combinedData are matched with the activity ids in the activity labels data set and replaced with the corresponding activity name
 
 ```{r}
 #Uses descriptive activity names to name the activities in the data set
@@ -78,6 +81,10 @@ combinedData[,2] <- activityLabels[match(combinedData[,2],activityLabels[,1]),2]
 Step 3 is complete.
 
 > ### Column names are made as descriptive as possible
+
+Column names are substituted with their decriptive versions
+
+Example: std is replaced with StandardDeviation
 
 ```{r}
 #Appropriately labels the data set with descriptive variable names. 
@@ -92,7 +99,7 @@ colnames(combinedData) <- gsub("maxInds","LargestMagnitudeIndex",colnames(combin
 
 Step 4 is complete.
 
-> ### Column names are made as descriptive as possible
+> ### Now the average of each variable for each activity and subject is calculated
 
 ```{r}
 #Create data set grouped by subject and activity and containing average of each feature
@@ -103,4 +110,7 @@ lastDataSet <- lastDataSet %>% group_by(SubjectID,ActivityID) %>% summarise_each
 write.table(lastDataSet, file = "newData.txt", row.names = FALSE)
 ```
 
+After calculating the average the data set is written to a text file called 'newData.txt' and stored in the current working directory
+
 Step 5 is complete.
+
