@@ -1,6 +1,6 @@
 ## Data Dictionary - Human Activity Recognition Using Smartphones
 
-The code book contains the description of all the feature variables afte removing the duplicates. There are ~ 480 features.
+> The code book contains the description of all the feature variables afte removing the duplicates. There are ~ 480 features.
 
 SubjectID 
 Represents Volunteer ID, Numbers from 1 to 30
