@@ -1,7 +1,6 @@
 # GettingandCleaningData
 
 -> Change your working directory to the folder where 'UCI HAR Dataset' folder is located
-
 -> Place the script 'run_analysis.R' in this folder
 
 -> Load the following library: dplyr
