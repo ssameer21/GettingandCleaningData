@@ -1,4 +1,4 @@
-# GettingandCleaningData
+### GettingandCleaningData
 
 -> Change your working directory to the folder where 'UCI HAR Dataset' folder is located
 
@@ -12,7 +12,7 @@
 
 -> For the explanation of the code see below:
 
-> Reading the data sets provided and merging them to create one single data set on which the operations will be performed:
+> # Reading the data sets provided and merging them to create one single data set on which the operations will be performed:
 
 ```{r}
 #read data sets and then combine them all in one main data set
