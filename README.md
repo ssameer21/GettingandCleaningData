@@ -23,4 +23,5 @@ z2 <- read.table(paste(getwd(),"/UCI HAR Dataset/train/subject_train.txt",sep = 
 combinedData1 <- cbind(z1,y1,x1)
 combinedData2 <- cbind(z2,y2,x2)
 combinedData <- rbind(combinedData1,combinedData2)
+s
 
