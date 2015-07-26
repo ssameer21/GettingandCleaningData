@@ -1,4 +1,4 @@
-# GettingandCleaningData
+# Getting and Cleaning Data
 
 -> Change your working directory to the folder where 'UCI HAR Dataset' folder is located
 
@@ -26,4 +26,6 @@ combinedData1 <- cbind(z1,y1,x1)
 combinedData2 <- cbind(z2,y2,x2)
 combinedData <- rbind(combinedData1,combinedData2)
 ```
+The X_test data set is stored in x1. X_train is stored in x2. Similarly, Y_test, Y_train are in y1, y2 respectively.
+Same for subject_test and subject_train.
 
