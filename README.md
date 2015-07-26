@@ -14,7 +14,6 @@
 
 Reading the data sets provided and merging them to create one single data set on which the operations will be performed:
 
-#read data sets and then combine them all in one main data set
 x1 <- read.table(paste(getwd(),"/UCI HAR Dataset/test/X_test.txt",sep = ""))
 y1 <- read.table(paste(getwd(),"/UCI HAR Dataset/test/y_test.txt",sep = ""))
 z1 <- read.table(paste(getwd(),"/UCI HAR Dataset/test/subject_test.txt",sep = ""))
