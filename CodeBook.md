@@ -1,5 +1,7 @@
 ## Data Dictionary - Human Activity Recognition Using Smartphones
 
+The code book contains the description of all the feature variables afte removing the duplicates. There are ~ 480 features.
+
 SubjectID 
 Represents Volunteer ID, Numbers from 1 to 30
 
@@ -86,40 +88,40 @@ tBodyAcc-entropy-Z
 Time domain body acceleration signal along Z-axis normalized using Interquartile Range, bounded within [-1,1]
 
 tBodyAcc-AutorregresionCoeff-X,1
-Time domain body acceleration signal along X-axis normalized using Auto regression Coefficients, bounded within [-1,1] – Replicate 1
+Time domain body acceleration signal along X-axis normalized using Auto regression Coefficients, bounded within [-1,1] â€“ Replicate 1
 
 tBodyAcc-AutorregresionCoeff-X,2
-Time domain body acceleration signal along X-axis normalized using Auto regression Coefficients, bounded within [-1,1] – Replicate 2
+Time domain body acceleration signal along X-axis normalized using Auto regression Coefficients, bounded within [-1,1] â€“ Replicate 2
 
 tBodyAcc-AutorregresionCoeff-X,3
-Time domain body acceleration signal along X-axis normalized using Auto regression Coefficients, bounded within [-1,1] – Replicate 3
+Time domain body acceleration signal along X-axis normalized using Auto regression Coefficients, bounded within [-1,1] â€“ Replicate 3
 
 tBodyAcc-AutorregresionCoeff-X,4
-Time domain body acceleration signal along X-axis normalized using Auto regression Coefficients, bounded within [-1,1] – Replicate 4
+Time domain body acceleration signal along X-axis normalized using Auto regression Coefficients, bounded within [-1,1] â€“ Replicate 4
 
 tBodyAcc-AutorregresionCoeff-Y,1
-Time domain body acceleration signal along Y-axis normalized using Auto regression Coefficients, bounded within [-1,1] – Replicate 1
+Time domain body acceleration signal along Y-axis normalized using Auto regression Coefficients, bounded within [-1,1] â€“ Replicate 1
 
 tBodyAcc-AutorregresionCoeff-Y,2
-Time domain body acceleration signal along Y-axis normalized using Auto regression Coefficients, bounded within [-1,1] – Replicate 2
+Time domain body acceleration signal along Y-axis normalized using Auto regression Coefficients, bounded within [-1,1] â€“ Replicate 2
 
 tBodyAcc-AutorregresionCoeff-Y,3
-Time domain body acceleration signal along Y-axis normalized using Auto regression Coefficients, bounded within [-1,1] – Replicate 3
+Time domain body acceleration signal along Y-axis normalized using Auto regression Coefficients, bounded within [-1,1] â€“ Replicate 3
 
 tBodyAcc-AutorregresionCoeff-Y,4
-Time domain body acceleration signal along Y-axis normalized using Auto regression Coefficients, bounded within [-1,1] – Replicate 4
+Time domain body acceleration signal along Y-axis normalized using Auto regression Coefficients, bounded within [-1,1] â€“ Replicate 4
 
 tBodyAcc-AutorregresionCoeff-Z,1
-Time domain body acceleration signal along Z-axis normalized using Auto regression Coefficients, bounded within [-1,1] – Replicate 1
+Time domain body acceleration signal along Z-axis normalized using Auto regression Coefficients, bounded within [-1,1] â€“ Replicate 1
 
 tBodyAcc-AutorregresionCoeff-Z,2
-Time domain body acceleration signal along Z-axis normalized using Auto regression Coefficients, bounded within [-1,1] – Replicate 2
+Time domain body acceleration signal along Z-axis normalized using Auto regression Coefficients, bounded within [-1,1] â€“ Replicate 2
 
 tBodyAcc-AutorregresionCoeff-Z,3
-Time domain body acceleration signal along Z-axis normalized using Auto regression Coefficients, bounded within [-1,1] – Replicate 3
+Time domain body acceleration signal along Z-axis normalized using Auto regression Coefficients, bounded within [-1,1] â€“ Replicate 3
 
 tBodyAcc-AutorregresionCoeff-Z,4
-Time domain body acceleration signal along Z-axis normalized using Auto regression Coefficients, bounded within [-1,1] – Replicate 4
+Time domain body acceleration signal along Z-axis normalized using Auto regression Coefficients, bounded within [-1,1] â€“ Replicate 4
 
 
 
@@ -208,40 +210,40 @@ tGravityAcc-entropy-Z
 Time domain gravity acceleration signal along Z-axis normalized using Signal Entropy, bounded within [-1,1]
 
 tGravityAcc-AutorregresionCoeff-X,1
-Time domain gravity acceleration signal along X-axis normalized using Auto Regression Coefficient, bounded within [-1,1] – Replicate 1
+Time domain gravity acceleration signal along X-axis normalized using Auto Regression Coefficient, bounded within [-1,1] â€“ Replicate 1
 
 tGravityAcc-AutorregresionCoeff-X,2
-Time domain gravity acceleration signal along X-axis normalized using Auto Regression Coefficient, bounded within [-1,1] – Replicate 2
+Time domain gravity acceleration signal along X-axis normalized using Auto Regression Coefficient, bounded within [-1,1] â€“ Replicate 2
 
 tGravityAcc-AutorregresionCoeff-X,3
-Time domain gravity acceleration signal along X-axis normalized using Auto Regression Coefficient, bounded within [-1,1] – Replicate 3
+Time domain gravity acceleration signal along X-axis normalized using Auto Regression Coefficient, bounded within [-1,1] â€“ Replicate 3
 
 tGravityAcc-AutorregresionCoeff-X,4
-Time domain gravity acceleration signal along X-axis normalized using Auto Regression Coefficient, bounded within [-1,1] – Replicate 4
+Time domain gravity acceleration signal along X-axis normalized using Auto Regression Coefficient, bounded within [-1,1] â€“ Replicate 4
 
 tGravityAcc-AutorregresionCoeff-Y,1
-Time domain gravity acceleration signal along Y-axis normalized using Auto Regression Coefficient, bounded within [-1,1] – Replicate 1
+Time domain gravity acceleration signal along Y-axis normalized using Auto Regression Coefficient, bounded within [-1,1] â€“ Replicate 1
 
 tGravityAcc-AutorregresionCoeff-Y,2
-Time domain gravity acceleration signal along Y-axis normalized using Auto Regression Coefficient, bounded within [-1,1] – Replicate 2
+Time domain gravity acceleration signal along Y-axis normalized using Auto Regression Coefficient, bounded within [-1,1] â€“ Replicate 2
 
 tGravityAcc-AutorregresionCoeff-Y,3
-Time domain gravity acceleration signal along Y-axis normalized using Auto Regression Coefficient, bounded within [-1,1] – Replicate 3
+Time domain gravity acceleration signal along Y-axis normalized using Auto Regression Coefficient, bounded within [-1,1] â€“ Replicate 3
 
 tGravityAcc-AutorregresionCoeff-Y,4
-Time domain gravity acceleration signal along Y-axis normalized using Auto Regression Coefficient, bounded within [-1,1] – Replicate 4
+Time domain gravity acceleration signal along Y-axis normalized using Auto Regression Coefficient, bounded within [-1,1] â€“ Replicate 4
 
 tGravityAcc-AutorregresionCoeff-Z,1
-Time domain gravity acceleration signal along Z-axis normalized using Auto Regression Coefficient, bounded within [-1,1] – Replicate 1
+Time domain gravity acceleration signal along Z-axis normalized using Auto Regression Coefficient, bounded within [-1,1] â€“ Replicate 1
 
 tGravityAcc-AutorregresionCoeff-Z,2
-Time domain gravity acceleration signal long Z-axis normalized using Auto Regression Coefficient, bounded within [-1,1] – Replicate 2
+Time domain gravity acceleration signal long Z-axis normalized using Auto Regression Coefficient, bounded within [-1,1] â€“ Replicate 2
 
 tGravityAcc-AutorregresionCoeff-Z,3
-Time domain gravity acceleration signal along Z-axis normalized using Auto Regression Coefficient, bounded within [-1,1] – Replicate 3
+Time domain gravity acceleration signal along Z-axis normalized using Auto Regression Coefficient, bounded within [-1,1] â€“ Replicate 3
 
 tGravityAcc-AutorregresionCoeff-Z,4
-Time domain gravity acceleration signal along Z-axis normalized using Auto Regression Coefficient, bounded within [-1,1] – Replicate 4
+Time domain gravity acceleration signal along Z-axis normalized using Auto Regression Coefficient, bounded within [-1,1] â€“ Replicate 4
 
 tGravityAcc-correlation-X,Y
 Time domain gravity acceleration signal normalized using XY Correlation, bounded within [-1,1] 
@@ -328,40 +330,40 @@ tBodyAccJerk-entropy-Z
 Time domain body acceleration jerk measure along z-axis normalized using signal entropy, bounded within [-1,1]
 
 tBodyAccJerk-AutorregresionCoeff-X,1
-Time domain body acceleration jerk measure along X-axis normalized using auto regression coefficient, bounded within [-1,1] – Replicate 1
+Time domain body acceleration jerk measure along X-axis normalized using auto regression coefficient, bounded within [-1,1] â€“ Replicate 1
 
 tBodyAccJerk-AutorregresionCoeff-X,2
-Time domain body acceleration jerk measure along X-axis normalized using auto regression coefficient, bounded within [-1,1] – Replicate 2
+Time domain body acceleration jerk measure along X-axis normalized using auto regression coefficient, bounded within [-1,1] â€“ Replicate 2
 
 tBodyAccJerk-AutorregresionCoeff-X,3
-Time domain body acceleration jerk measure along X-axis normalized using auto regression coefficient, bounded within [-1,1] – Replicate 3
+Time domain body acceleration jerk measure along X-axis normalized using auto regression coefficient, bounded within [-1,1] â€“ Replicate 3
 
 tBodyAccJerk-AutorregresionCoeff-X,4
-Time domain body acceleration jerk measure along X-axis normalized using auto regression coefficient, bounded within [-1,1] – Replicate 4
+Time domain body acceleration jerk measure along X-axis normalized using auto regression coefficient, bounded within [-1,1] â€“ Replicate 4
 
 tBodyAccJerk-AutorregresionCoeff-Y,1
-Time domain body acceleration jerk measure along y-axis normalized using auto regression coefficient, bounded within [-1,1] – Replicate 1
+Time domain body acceleration jerk measure along y-axis normalized using auto regression coefficient, bounded within [-1,1] â€“ Replicate 1
 
 tBodyAccJerk-AutorregresionCoeff-Y,2
-Time domain body acceleration jerk measure along y-axis normalized using auto regression coefficient, bounded within [-1,1] – Replicate 2
+Time domain body acceleration jerk measure along y-axis normalized using auto regression coefficient, bounded within [-1,1] â€“ Replicate 2
 
 tBodyAccJerk-AutorregresionCoeff-Y,3
-Time domain body acceleration jerk measure along y-axis normalized using auto regression coefficient, bounded within [-1,1] – Replicate 3
+Time domain body acceleration jerk measure along y-axis normalized using auto regression coefficient, bounded within [-1,1] â€“ Replicate 3
 
 tBodyAccJerk-AutorregresionCoeff-Y,4
-Time domain body acceleration jerk measure along y-axis normalized using auto regression coefficient, bounded within [-1,1] – Replicate 4
+Time domain body acceleration jerk measure along y-axis normalized using auto regression coefficient, bounded within [-1,1] â€“ Replicate 4
 
 tBodyAccJerk-AutorregresionCoeff-Z,1
-Time domain body acceleration jerk measure along z-axis normalized using auto regression coefficient, bounded within [-1,1] – Replicate 1
+Time domain body acceleration jerk measure along z-axis normalized using auto regression coefficient, bounded within [-1,1] â€“ Replicate 1
 
 tBodyAccJerk-AutorregresionCoeff-Z,2
-Time domain body acceleration jerk measure along z-axis normalized using auto regression coefficient, bounded within [-1,1] – Replicate 2
+Time domain body acceleration jerk measure along z-axis normalized using auto regression coefficient, bounded within [-1,1] â€“ Replicate 2
 
 tBodyAccJerk-AutorregresionCoeff-Z,3
-Time domain body acceleration jerk measure along z-axis normalized using auto regression coefficient, bounded within [-1,1] – Replicate 3
+Time domain body acceleration jerk measure along z-axis normalized using auto regression coefficient, bounded within [-1,1] â€“ Replicate 3
 
 tBodyAccJerk-AutorregresionCoeff-Z,4
-Time domain body acceleration jerk measure along z-axis normalized using auto regression coefficient, bounded within [-1,1] – Replicate 4
+Time domain body acceleration jerk measure along z-axis normalized using auto regression coefficient, bounded within [-1,1] â€“ Replicate 4
 
 tBodyAccJerk-correlation-X,Y
 Time domain body acceleration jerk measure normalized using xy correlation, bounded within [-1,1]
@@ -448,40 +450,40 @@ tBodyGyro-entropy-Z
 Time domain body angular velocity measure along z-axis normalized using signal entropy, bounded within [-1,1]
 
 tBodyGyro-AutorregresionCoeff-X,1
-Time domain body angular velocity measure along x-axis normalized using auto regression coefficient, bounded within [-1,1] – Replicate 1
+Time domain body angular velocity measure along x-axis normalized using auto regression coefficient, bounded within [-1,1] â€“ Replicate 1
 
 tBodyGyro-AutorregresionCoeff-X,2
-Time domain body angular velocity measure along x-axis normalized using auto regression coefficient, bounded within [-1,1] – Replicate 2
+Time domain body angular velocity measure along x-axis normalized using auto regression coefficient, bounded within [-1,1] â€“ Replicate 2
 
 tBodyGyro-AutorregresionCoeff-X,3
-Time domain body angular velocity measure along x-axis normalized using auto regression coefficient, bounded within [-1,1] – Replicate 3
+Time domain body angular velocity measure along x-axis normalized using auto regression coefficient, bounded within [-1,1] â€“ Replicate 3
 
 tBodyGyro-AutorregresionCoeff-X,4
-Time domain body angular velocity measure along x-axis normalized using auto regression coefficient, bounded within [-1,1] – Replicate 4
+Time domain body angular velocity measure along x-axis normalized using auto regression coefficient, bounded within [-1,1] â€“ Replicate 4
 
 tBodyGyro-AutorregresionCoeff-Y,1
-Time domain body angular velocity measure along y-axis normalized using auto regression coefficient, bounded within [-1,1] – Replicate 1
+Time domain body angular velocity measure along y-axis normalized using auto regression coefficient, bounded within [-1,1] â€“ Replicate 1
 
 tBodyGyro-AutorregresionCoeff-Y,2
-Time domain body angular velocity measure along y-axis normalized using auto regression coefficient, bounded within [-1,1] – Replicate 2
+Time domain body angular velocity measure along y-axis normalized using auto regression coefficient, bounded within [-1,1] â€“ Replicate 2
 
 tBodyGyro-AutorregresionCoeff-Y,3
-Time domain body angular velocity measure along y-axis normalized using auto regression coefficient, bounded within [-1,1] – Replicate 3
+Time domain body angular velocity measure along y-axis normalized using auto regression coefficient, bounded within [-1,1] â€“ Replicate 3
 
 tBodyGyro-AutorregresionCoeff-Y,4
-Time domain body angular velocity measure along y-axis normalized using auto regression coefficient, bounded within [-1,1] – Replicate 4
+Time domain body angular velocity measure along y-axis normalized using auto regression coefficient, bounded within [-1,1] â€“ Replicate 4
 
 tBodyGyro-AutorregresionCoeff-Z,1
-Time domain body angular velocity measure along z-axis normalized using auto regression coefficient, bounded within [-1,1] – Replicate 1
+Time domain body angular velocity measure along z-axis normalized using auto regression coefficient, bounded within [-1,1] â€“ Replicate 1
 
 tBodyGyro-AutorregresionCoeff-Z,2
-Time domain body angular velocity measure along z-axis normalized using auto regression coefficient, bounded within [-1,1] – Replicate 2
+Time domain body angular velocity measure along z-axis normalized using auto regression coefficient, bounded within [-1,1] â€“ Replicate 2
 
 tBodyGyro-AutorregresionCoeff-Z,3
-Time domain body angular velocity measure along z-axis normalized using auto regression coefficient, bounded within [-1,1] – Replicate 3
+Time domain body angular velocity measure along z-axis normalized using auto regression coefficient, bounded within [-1,1] â€“ Replicate 3
 
 tBodyGyro-AutorregresionCoeff-Z,4
-Time domain body angular velocity measure along z-axis normalized using auto regression coefficient, bounded within [-1,1] – Replicate 4
+Time domain body angular velocity measure along z-axis normalized using auto regression coefficient, bounded within [-1,1] â€“ Replicate 4
 
 tBodyGyro-correlation-X,Y
 Time domain body angular velocity measure normalized using xy correlation, bounded within [-1,1]
@@ -640,16 +642,16 @@ tBodyAccMag-entropy
 Time domain body acceleration signal using the Euclidean norm normalized using signal entropy, bounded within [-1,1] 
 
 tBodyAccMag-AutorregresionCoeff1
-Time domain body acceleration signal using the Euclidean norm normalized using auto regression, bounded within [-1,1] – replicate 1
+Time domain body acceleration signal using the Euclidean norm normalized using auto regression, bounded within [-1,1] â€“ replicate 1
 
 tBodyAccMag-AutorregresionCoeff2
-Time domain body acceleration signal using the Euclidean norm normalized using auto regression, bounded within [-1,1] – replicate 2
+Time domain body acceleration signal using the Euclidean norm normalized using auto regression, bounded within [-1,1] â€“ replicate 2
 
 tBodyAccMag-AutorregresionCoeff3
-Time domain body acceleration signal using the Euclidean norm normalized using auto regression, bounded within [-1,1] – replicate 3
+Time domain body acceleration signal using the Euclidean norm normalized using auto regression, bounded within [-1,1] â€“ replicate 3
 
 tBodyAccMag-AutorregresionCoeff4
-Time domain body acceleration signal using the Euclidean norm normalized using auto regression, bounded within [-1,1] – replicate 4
+Time domain body acceleration signal using the Euclidean norm normalized using auto regression, bounded within [-1,1] â€“ replicate 4
 
 tGravityAccMag-mean
 Time domain gravity acceleration signal using the Euclidean norm normalized using mean, bounded within [-1,1] 
@@ -679,16 +681,16 @@ tGravityAccMag-entropy
 Time domain gravity acceleration signal using the Euclidean norm normalized using signal entropy, bounded within [-1,1] 
 
 tGravityAccMag-AutorregresionCoeff1
-Time domain gravity acceleration signal using the Euclidean norm normalized using auto regression, bounded within [-1,1] – replicate 1
+Time domain gravity acceleration signal using the Euclidean norm normalized using auto regression, bounded within [-1,1] â€“ replicate 1
 
 tGravityAccMag-AutorregresionCoeff2
-Time domain gravity acceleration signal using the Euclidean norm normalized using auto regression, bounded within [-1,1] – replicate 2
+Time domain gravity acceleration signal using the Euclidean norm normalized using auto regression, bounded within [-1,1] â€“ replicate 2
 
 tGravityAccMag-AutorregresionCoeff3
-Time domain gravity acceleration signal using the Euclidean norm normalized using auto regression, bounded within [-1,1] – replicate 3
+Time domain gravity acceleration signal using the Euclidean norm normalized using auto regression, bounded within [-1,1] â€“ replicate 3
 
 tGravityAccMag-AutorregresionCoeff4
-Time domain gravity acceleration signal using the Euclidean norm normalized using auto regression, bounded within [-1,1] – replicate 4
+Time domain gravity acceleration signal using the Euclidean norm normalized using auto regression, bounded within [-1,1] â€“ replicate 4
 
 tBodyAccJerkMag-mean
 Time domain gravity acceleration jerk signal using the Euclidean norm normalized using mean, bounded within [-1,1] 
@@ -796,16 +798,16 @@ tBodyGyroJerkMag-entropy
 Time domain gravity angular velocity measure using the Euclidean norm normalized using entropy, bounded within [-1,1] 
 
 tBodyGyroJerkMag-AutorregresionCoeff1
-Time domain gravity angular velocity measure using the Euclidean norm normalized using auto regression, bounded within [-1,1] –replicate 1
+Time domain gravity angular velocity measure using the Euclidean norm normalized using auto regression, bounded within [-1,1] â€“replicate 1
 
 tBodyGyroJerkMag-AutorregresionCoeff2
-Time domain gravity angular velocity measure using the Euclidean norm normalized using auto regression, bounded within [-1,1] –replicate 2
+Time domain gravity angular velocity measure using the Euclidean norm normalized using auto regression, bounded within [-1,1] â€“replicate 2
 
 tBodyGyroJerkMag-AutorregresionCoeff3
-Time domain gravity angular velocity measure using the Euclidean norm normalized using auto regression, bounded within [-1,1] –replicate 3
+Time domain gravity angular velocity measure using the Euclidean norm normalized using auto regression, bounded within [-1,1] â€“replicate 3
 
 tBodyGyroJerkMag-AutorregresionCoeff4
-Time domain gravity angular velocity measure using the Euclidean norm normalized using auto regression, bounded within [-1,1] –replicate 4
+Time domain gravity angular velocity measure using the Euclidean norm normalized using auto regression, bounded within [-1,1] â€“replicate 4
 fBodyAcc-mean-X
 Frequency domain body acceleration normalized using mean X axis
 
