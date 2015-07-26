@@ -1,6 +1,6 @@
 # Getting and Cleaning Data
 
--> Change your working directory to the folder where 'UCI HAR Dataset' folder is located
+-> Change your working directory to the folder where 'UCI HAR Dataset' (Samsung data) folder is located
 
 -> Place the script 'run_analysis.R' in this folder
 
